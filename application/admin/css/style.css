@@ -1,0 +1,68 @@
+/* 		TABLE 		*/
+
+.admin_header {
+	width: 100%;
+	height: auto;
+	margin-bottom: 30px;
+	background: #5d547d;
+}
+
+.inner_admin_header {
+	position: relative;
+	margin: auto;
+	width: 1280px;
+	height: auto;
+	padding: 20px;
+	border-left: 2px solid #5d547d;
+	border-right: 2px solid #5d547d;
+	border-bottom: 2px solid #5d547d;
+	background: white;
+	text-align: center;
+}
+
+.inner_admin_header h3 {
+	color: #5d547d;
+}
+
+.inner_admin_header select {
+	position: relative;
+	margin: auto;
+	width: 80%;
+	border: 2px dashed #5d547d;
+	outline: none!important;
+	background: #a7a2b99c;
+}
+
+.inner_admin_header select:focus {
+    outline: none!important;
+    background: #a7a2b99c;
+}
+
+.reqBlock {
+	width: 55px;
+	height: 37px;
+	position: relative;
+}
+
+.count_friend {
+	position: absolute;
+	top: 8px;
+	left: 70%;
+	font-size: 13px;
+	text-align: center;
+	color: black;
+	width: 18px;
+	height: 18px;
+	background: red;
+	border-radius: 30%;
+}
+u {
+	text-decoration: underline;
+}
+
+@media (min-width: 601px) and (max-width: 900px){
+	.count_friend {	left: 50%; }
+}
+@media (min-width: 480px) and (max-width: 600px){
+	.count_friend { left: 43%; }
+}
